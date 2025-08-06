@@ -1,0 +1,82 @@
+.Project_container {
+  height: 90%;
+  width: 100%;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 1rem;
+  padding-bottom:1rem ;
+  gap: 1rem;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+@media screen and (max-Width:1100px){
+  .Project_container{
+    flex-direction: column;
+  }
+}
+.TallCard{
+  width: 50%;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+  backdrop-filter: blur(10px);
+  background-color: #413f3f9a;
+}
+.SmallCards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  width: 50%;
+}
+
+.SmallCard{
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+  background-color: #413f3f9a;
+}
+.SmallCard img{
+  width: 60%;
+  height: 100%;
+}
+.TextBox{
+  padding: 1rem;
+}
+.TextBox P:first-child{
+  color: rgb(255, 153, 0);
+  font-weight: 700;
+}
+.TextBoxProjectLink{
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: start;
+  gap: 1rem;
+}
+
+@media screen and (max-width:1100px) {
+  .TallCard{
+    width: 100%;
+  }
+  .SmallCards{
+    width: 100%;
+  }
+  .SmallCard{
+    flex-direction: column;
+  }
+  .SmallCard img{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .Project_container{
+    padding: 1rem;
+  }
+}
