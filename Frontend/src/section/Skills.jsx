@@ -25,7 +25,9 @@ const Skills = () => {
         </div>
 
         <div className="skills_icons">
-            <h2 className='font-bold text-xl text-blue-500'>#Tech Stack</h2>
+              <h1 className="relative inline-block px-4 py-2 bg-blue-600 text-shadow-indigo-100 font-bold text-xl rounded-lg shadow-lg before:content-[''] before:absolute before:-top-2 before:-right-2 before:w-4 before:h-4 before:bg-blue-800 before:rounded-full">
+                👨🏻‍💻 Tech Stack
+              </h1>
             <div className="skill_cards">
                 <SkillCard title={"React"}/>
                 <SkillCard title={"MongoDB"}/>
